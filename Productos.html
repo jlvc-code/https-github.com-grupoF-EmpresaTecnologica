@@ -3,158 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos - Empresa Tecnológica</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', sans-serif;
-        }
-        body {
-            background-color: #f4f7fa;
-            color: #333;
-        }
-        header {
-            background: linear-gradient(135deg, #0f2b48, #2563eb);
-            color: white;
-            padding: 2rem;
-            text-align: center;
-        }
-        h1 {
-            font-size: 2rem;
-            margin-bottom: 0.5rem;
-        }
-        .subtitulo {
-            opacity: 0.9;
-        }
-        .contenedor-productos {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-        }
-        .tarjeta-producto {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-            overflow: hidden;
-            transition: transform 0.3s ease;
-        }
-        .tarjeta-producto:hover {
-            transform: translateY(-5px);
-        }
-        .imagen-producto {
-            width: 100%;
-            height: 180px;
-            background-color: #e2e8f0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
-            color: #64748b;
-        }
-        .contenido {
-            padding: 1.25rem;
-        }
-        .nombre {
-            font-size: 1.15rem;
-            font-weight: 600;
-            margin-bottom: 0.75rem;
-            color: #1e293b;
-        }
-        .descripcion {
-            font-size: 0.95rem;
-            color: #64748b;
-            margin-bottom: 1rem;
-            line-height: 1.4;
-        }
-        .precio {
-            font-size: 1.25rem;
-            font-weight: 700;
-            color: #2563eb;
-            margin-bottom: 1rem;
-        }
-        .boton {
-            display: block;
-            width: 100%;
-            padding: 0.7rem;
-            background-color: #2563eb;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-        .boton:hover {
-            background-color: #1d4ed8;
-        }
-        footer {
-            text-align: center;
-            padding: 1.5rem;
-            background-color: #0f2b48;
-            color: white;
-            margin-top: 2rem;
-        }
-    </style>
+    <title>EMPRESA TECNOLOGICA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css"> <!-- ✅ Enlace agregado -->
 </head>
 <body>
 
-    <header>
-        <h1>PRODUCTOS TECNOLÓGICOS</h1>
-        <p class="subtitulo">Soluciones innovadoras para tu vida y tu negocio</p>
-    </header>
+    <h1 class="nombre-tienda"></h1>
+    <h2 class="titulo-seccion">PRODUCTOS</h2>
 
-    <main class="contenedor-productos">
-
-        <div class="tarjeta-producto">
-            <div class="imagen-producto">💻</div>
-            <div class="contenido">
-                <h3 class="nombre">Laptop Profesional</h3>
-                <p class="descripcion">Alto rendimiento para trabajo, diseño y programación.</p>
-                <div class="precio">$ 1.200,00</div>
-                <button class="boton">Ver detalles</button>
-            </div>
+   
+    <section class="product-grid">
+        <div class="producto">
+            <img src="img/Producto1.png" alt="Apps moviles">
+            <h3>Apps moviles</h3>
+            <span class="precio">$95.00</span>
+            <button class="btn-comprar">Comprar</button>
         </div>
 
-        <div class="tarjeta-producto">
-            <div class="imagen-producto">📱</div>
-            <div class="contenido">
-                <h3 class="nombre">Smartphone Pro</h3>
-                <p class="descripcion">Pantalla de alta definición, cámara profesional y gran batería.</p>
-                <div class="precio">$ 850,00</div>
-                <button class="boton">Ver detalles</button>
-            </div>
+        <div class="producto">
+            <img src="img/Producto2.png" alt="Infraestructura Cloud">
+            <h3>Infraestructura Cloud</h3>
+            <span class="precio">$85.00</span>
+            <button class="btn-comprar">Comprar</button>
         </div>
 
-        <div class="tarjeta-producto">
-            <div class="imagen-producto">🖥️</div>
-            <div class="contenido">
-                <h3 class="nombre">Monitor 4K</h3>
-                <p class="descripcion">Imagen nítida, amplio ángulo de visión y diseño elegante.</p>
-                <div class="precio">$ 420,00</div>
-                <button class="boton">Ver detalles</button>
-            </div>
+        <div class="producto">
+            <img src="img/Producto3.png" alt="Automatizacion de procesos">
+            <h3>Automatizacion de procesos</h3>
+            <span class="precio">$73.50</span>
+            <button class="btn-comprar">Comprar</button>
         </div>
 
-        <div class="tarjeta-producto">
-            <div class="imagen-producto">🔌</div>
-            <div class="contenido">
-                <h3 class="nombre">Kit Red y Conectividad</h3>
-                <p class="descripcion">Equipos para redes, servidores y conexión empresarial.</p>
-                <div class="precio">$ 290,00</div>
-                <button class="boton">Ver detalles</button>
-            </div>
+        <div class="producto">
+            <img src="img/Producto4.png" alt="Seguridad informatica">
+            <h3>Seguridad informatica</h3>
+            <span class="precio">$25.00</span>
+            <button class="btn-comprar">Comprar</button>
         </div>
 
-    </main>
+        <div class="producto">
+            <img src="img/Producto5.png" alt="Venta de paginas web">
+            <h3>Venta de paginas web</h3>
+            <span class="precio">$85.00</span>
+            <button class="btn-comprar">Comprar</button>
+        </div>
 
-    <footer>
-        © 2026 Empresa Tecnológica — Todos los derechos reservados
-    </footer>
+        <div class="producto">
+            <img src="img/Producto6.png" alt=" soporte y mantenimiento tecnico">
+            <h3> soporte y mantenimiento tecnico</h3>
+            <span class="precio">$50.00</span>
+            <button class="btn-comprar">Comprar</button>
+        </div>
+
+        <div class="producto">
+            <img src="img/Producto7.png" alt="tecnología avanzada">
+            <h3>tecnología avanzada</h3>
+            <span class="precio">$87.50</span>
+            <button class="btn-comprar">Comprar</button>
+        </div>
+    </section>
 
 </body>
 </html>
