@@ -597,8 +597,105 @@ h1, h2, h3 {
 
 /* ---- PRODUCTOS  (Persona 3) ---- */
 /* Agrega aquí tus estilos específicos */
+/* === ESTILOS GENERALES === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
 
+body {
+    background-color: #f0f4f8;
+    padding: 30px 20px;
+}
 
+/* === TÍTULOS === */
+.nombre-tienda {
+    text-align: center;
+    color: #0f172a;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.titulo-seccion {
+    text-align: center;
+    color: #1e40af;
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #3b82f6;
+}
+
+/* === GRID DE PRODUCTOS === */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* === TARJETA DE PRODUCTO === */
+.producto {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 22px rgba(59, 130, 246, 0.25);
+}
+
+.producto img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.producto h3 {
+    color: #1f2937;
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* === PRECIO Y BOTÓN === */
+.precio {
+    display: block;
+    font-size: 1.4rem;
+    color: #16a34a;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn-comprar {
+    background: linear-gradient(90deg, #2563eb, #3b82f6);
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background: linear-gradient(90deg, #1d4ed8, #2563eb);
+}
 
 
 
