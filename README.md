@@ -5,11 +5,10 @@
 Tecno Solutions — empresa de desarrollo de software y soluciones cloud.
 
 ## Integrantes
-- [Jonathan Leonel Verdesoto] — index.html - contacto.html
-- [Jefferson Torres Villamar] — nosotros.html - contacto.html
-- [Sara Naranjo Naranjo ] — productos.html - contacto.html
-- [Paolo Cuisana Perez] - Revision de que todos los links de navegacion entre paginas funcione correctamente y el encargado de armar el PDF con lo solicitado de parte del Docente Ing. Cristian Zambrano Vega
-
+- [Jonathan Leonel Verdesoto] - index.html
+- [Jefferson Torres Villamar] - nosotros.html
+- [Sara Naranjo Naranjo ] - productos.html
+- [Paolo Cuisana Perez] - contacto.html
 
 ## Objetivo
 Sitio web informativo de la empresa, desarrollado únicamente con HTML5 y CSS3,
